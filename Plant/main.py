@@ -9,7 +9,7 @@ import zipfile
 import tempfile
 
 app = Flask(__name__)
-app.secret_key = 'plant_love_secret_key_jehova_blessing'
+app.secret_key = 'YOUR_SECRET_KEY'
 
 # Directories
 PLANTS_DIR = "plants"
